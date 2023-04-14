@@ -1,0 +1,24 @@
+{
+  "name": "smartedu",
+  "version": "1.0.0",
+  "description": "Smartedu Course Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app.js"
+  },
+  "keywords": [
+    "[Course",
+    "Education]"
+  ],
+  "author": "Cihan Yüksel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
