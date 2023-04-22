@@ -8,6 +8,7 @@ const pool = new Pool({
   password: process.env.PG_PASSWORD,
   port: process.env.PG_PORT,
 });
+
 module.exports = {
   query: (text, params) => pool.query(text, params),
 };
