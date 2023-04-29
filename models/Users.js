@@ -5,6 +5,7 @@ const userSchema = {
         email VARCHAR(50) UNIQUE,
         password VARCHAR(18) NOT NULL
       )`,
+  addColumn: `ALTER TABLE users ADD COLUMN IF NOT EXISTS refreshtoken TEXT[]`,
 };
 
 const UserSchema = (pool) => {

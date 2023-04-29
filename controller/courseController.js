@@ -5,7 +5,7 @@ CoursesSchema(db);
 
 // GET
 getAllCourses = async (req, res) => {
-  console.log(req);
+  console.log("idddddddd", req.headers);
   try {
     const results = await db.query("select * from courses");
     const courses = results.rows;
